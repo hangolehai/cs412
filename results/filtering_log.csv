@@ -1,0 +1,7 @@
+Step,Rows
+Raw listings,8695
+Removed: missing or unparseable price,1243
+Removed: price <= 0,0
+Removed: 0 < price < $20,10
+"Removed: price > $1,500",69
+Retained listings,7373

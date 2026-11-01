@@ -1,0 +1,10 @@
+Feature set,Model,Model inputs after encoding,MAE,RMSE,R2,Train rows,Test rows,Fit seconds
+Baseline,Linear Regression,53,103.45,160.64,0.4435,5898,1475,0.09
+Baseline,Random Forest,53,90.21,148.38,0.5252,5898,1475,3.88
+Baseline,XGBoost,53,89.57,145.9,0.541,5898,1475,0.44
+Baseline + location,Linear Regression,131,97.45,149.69,0.5168,5898,1475,0.11
+Baseline + location,Random Forest,131,79.25,135.53,0.6039,5898,1475,6.07
+Baseline + location,XGBoost,131,81.32,135.12,0.6063,5898,1475,0.7
+Baseline + location + amenities,Linear Regression,139,97.29,147.94,0.528,5898,1475,0.24
+Baseline + location + amenities,Random Forest,139,78.53,135.03,0.6068,5898,1475,9.11
+Baseline + location + amenities,XGBoost,139,77.74,130.81,0.631,5898,1475,0.47

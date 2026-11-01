@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Original dataset (place listings.csv.gz in data/)
+data/*.csv
+data/*.csv.gz
+data/*.parquet
+
+# OS
+.DS_Store

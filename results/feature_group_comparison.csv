@@ -1,0 +1,10 @@
+Model,Metric,Baseline,Baseline + location,Baseline + location + amenities,Location improvement,Amenities additional improvement,Location improvement (% of baseline),Amenities additional improvement (% of baseline)
+Linear Regression,MAE,103.45,97.45,97.29,6.0,0.16,5.8,0.2
+Linear Regression,RMSE,160.64,149.69,147.94,10.95,1.75,6.8,1.1
+Linear Regression,R2,0.4435,0.5168,0.528,0.0733,0.0112,,
+Random Forest,MAE,90.21,79.25,78.53,10.96,0.72,12.1,0.8
+Random Forest,RMSE,148.38,135.53,135.03,12.85,0.5,8.7,0.3
+Random Forest,R2,0.5252,0.6039,0.6068,0.0787,0.0029,,
+XGBoost,MAE,89.57,81.32,77.74,8.25,3.58,9.2,4.0
+XGBoost,RMSE,145.9,135.12,130.81,10.78,4.31,7.4,3.0
+XGBoost,R2,0.541,0.6063,0.631,0.0653,0.0247,,

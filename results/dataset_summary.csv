@@ -1,0 +1,11 @@
+Statistic,Value
+Snapshot date (last_scraped),2026-09-19 to 2026-09-20
+Raw listings,8695
+Raw columns,90
+Retained listings,7373
+Retained share of raw listings (%),84.8
+Median nightly price (USD),207.5
+Mean nightly price (USD),268.53
+Std. dev. nightly price (USD),213.23
+Min nightly price (USD),22.64
+Max nightly price (USD),1500.0
